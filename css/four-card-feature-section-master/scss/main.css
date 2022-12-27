@@ -73,11 +73,6 @@ main .blue {
 .card .card-body .card-title {
   font-weight: 400;
 }
-.card .card-img {
-  text-align: end;
-  padding-right: 5%;
-  padding-bottom: 5%;
-}
 
 @media (min-width: 991px) {
   .cyan {

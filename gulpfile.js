@@ -4,14 +4,14 @@ const sass = require('gulp-sass')(require('sass'));
 // pipe sass files to css file
 
 function styleFiles(){
-    return src("../**/*.scss")
+    return src("scss/*.scss")
     .pipe(sass())
     .pipe(dest("./css"));
 }
 
 // watch files changes
 function watchTasks(){
-    watch(["../**/*.scss"], styleFiles);
+    watch(["scss/*.scss"], styleFiles);
 }
 
 // exports changes to files

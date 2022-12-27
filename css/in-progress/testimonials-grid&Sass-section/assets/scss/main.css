@@ -1,0 +1,162 @@
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  background-color: hsl(210deg, 46%, 95%);
+}
+
+h5.card-title {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.card-subtitle {
+  margin: 0;
+  opacity: 0.5;
+}
+
+.container {
+  width: 73%;
+  margin: 4% auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+@media (max-width: 991px) {
+  .container {
+    display: block;
+    width: 100%;
+  }
+}
+
+.card {
+  border-radius: 15px;
+  padding: 1.5rem 2.75rem 0.5rem;
+}
+.card-name {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 3.5rem;
+}
+.card-name .card-name__name {
+  display: inline;
+}
+@media (max-width: 991px) {
+  .card {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2em;
+}
+@media (max-width: 991px) {
+  .card-title {
+    font-size: 1.3rem;
+  }
+}
+
+.card-text {
+  opacity: 0.7;
+  padding-top: 1em;
+  line-height: 1.2rem;
+}
+
+#daniel {
+  grid-column: 1/span 2;
+  background: url(../../images/bg-pattern-quotation.svg) no-repeat 75% 0px, hsl(263deg, 55%, 52%);
+  color: hsl(0deg, 0%, 100%);
+}
+#daniel .card-name::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../images/image-daniel.jpg");
+  width: 35px;
+  aspect-ratio: 1;
+  top: -5px;
+  left: 0;
+  background-position-x: center;
+  background-size: cover;
+  border: 3px solid hsl(264deg, 82%, 70%);
+  border-radius: 50%;
+}
+
+#jonathan {
+  background: hsl(217deg, 19%, 35%);
+  color: hsl(0deg, 0%, 100%);
+}
+#jonathan .card-name::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../images/image-jonathan.jpg");
+  width: 35px;
+  aspect-ratio: 1;
+  top: -5px;
+  left: 0;
+  background-position-x: center;
+  background-size: cover;
+  border: 3px solid hsl(217deg, 19%, 35%);
+  border-radius: 50%;
+}
+
+#jeanette {
+  background-color: hsl(0deg, 0%, 100%);
+  box-shadow: 15px 15px 20px 5px hsl(210deg, 46%, 91%);
+}
+#jeanette .card-name::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../images/image-jeanette.jpg");
+  width: 35px;
+  aspect-ratio: 1;
+  top: -5px;
+  left: 0;
+  background-position-x: center;
+  background-size: cover;
+  border: 3px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}
+
+#patrick {
+  grid-column: 2/span 2;
+  background: hsl(219deg, 29%, 14%);
+  color: hsl(0deg, 0%, 100%);
+}
+#patrick .card-name::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../images/image-patrick.jpg");
+  width: 35px;
+  aspect-ratio: 1;
+  top: -5px;
+  left: 0;
+  background-position-x: center;
+  background-size: cover;
+  border: 3px solid hsl(264deg, 82%, 70%);
+  border-radius: 50%;
+}
+
+#kira {
+  grid-column: 4/5;
+  grid-row: 1/span 2;
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(217deg, 19%, 35%);
+  box-shadow: 15px 15px 20px 5px hsl(210deg, 46%, 91%);
+}
+#kira .card-name::before {
+  position: absolute;
+  content: "";
+  background-image: url("../../images/image-kira.jpg");
+  width: 35px;
+  aspect-ratio: 1;
+  top: -5px;
+  left: 0;
+  background-position-x: center;
+  background-size: cover;
+  border: 3px solid hsl(0deg, 0%, 100%);
+  border-radius: 50%;
+}

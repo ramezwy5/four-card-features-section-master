@@ -44,9 +44,9 @@ main{
             font-weight: fontWeight(regular);
         }
     }
-    .card-img{
-        @include image-position;
-    }
+    // .card-img{
+    //     @include image-position;
+    // }
 }
 
 .cyan{

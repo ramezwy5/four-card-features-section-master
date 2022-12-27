@@ -21,7 +21,7 @@ header {
   text-align: center;
   margin: 20% 0;
 }
-@media (min-width: 991px) {
+@media (min-width: 900px) {
   header {
     margin: 5% 0;
   }
@@ -33,7 +33,7 @@ header p:first-of-type {
   font-weight: 600;
   font-size: 1.75rem;
 }
-@media (min-width: 991px) {
+@media (min-width: 900px) {
   header p:first-of-type {
     font-size: 2.5rem;
   }
@@ -41,7 +41,7 @@ header p:first-of-type {
 header p:last-child {
   font-size: 1.1rem;
 }
-@media (min-width: 991px) {
+@media (min-width: 900px) {
   header p:last-child {
     width: 50%;
     margin: auto;
@@ -79,13 +79,13 @@ main .blue {
   padding-bottom: 5%;
 }
 
-@media (min-width: 991px) {
+@media (min-width: 900px) {
   .cyan {
     margin-top: 108.5px;
   }
 }
 
-@media (min-width: 991px) {
+@media (min-width: 900px) {
   .blue {
     margin-top: 108.5px;
   }

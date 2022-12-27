@@ -1,0 +1,45 @@
+// font family
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+// Colors
+
+// Primary
+
+$border-color:(
+    'cyan': hsl(180, 62%, 55%),
+    'red': hsl(0, 78%, 62%),
+    'orange': hsl(34, 97%, 64%),
+    'blue': hsl(212, 86%, 64%)
+);
+// Neutral
+
+$Very-Dark-Blue: hsl(234, 12%, 34%);
+$Grayish-Blue: hsl(229, 6%, 66%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+
+//font size
+
+$font-size: 15px;
+$weight:(
+    'fead': 200,
+    'regular': 400,
+    'dark': 600
+);
+
+*,
+*::before,
+*::after{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: map-get($weight, light);
+    box-sizing: border-box;
+}
+body{
+    background-color: $Very-Light-Gray;
+    color: $Grayish-Blue;
+}
+
+.container{
+    padding: 10% 5%;
+    margin: auto;
+}

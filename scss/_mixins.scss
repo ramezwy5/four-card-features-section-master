@@ -1,0 +1,24 @@
+@function fontWeight($font-weight){
+    @return map-get($weight , $font-weight );
+}
+
+@mixin border{
+    @each $color in map-keys($border-color){
+        .#{$color}{
+            border: none;
+            border-top: 5px solid map-get($border-color, $color);
+        };
+    }
+}
+
+@mixin image-position{
+    text-align: end;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+@mixin desktop{
+    @media (min-width: 767px) {
+        @content;
+    }
+}

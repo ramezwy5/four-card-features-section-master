@@ -1,0 +1,62 @@
+@import 'sets', 'mixins'; 
+
+// .container-xl{
+//     @include desktop{
+//         padding: 5% 0;
+//         margin: 5%;
+//     }
+// }
+header{
+    text-align: center;
+    margin: 20% 0;
+    @include desktop{
+        margin: 5% 0;
+    }
+    h1{
+        font-weight: fontWeight(fead);
+    }
+    p:first-of-type{
+        font-weight: fontWeight(dark);
+        font-size: 1.75rem;
+        @include desktop{
+            font-size: 2.5rem;
+        }
+    }
+    p:last-child{
+        font-size: 1.1rem;
+        @include desktop{
+            width: 50%;
+            margin: auto;
+        }
+    }
+}
+
+main{
+    @include border;
+}
+.card{
+    margin-bottom: 7%;
+    --bs-card-spacer-x: 2rem;
+    box-shadow: 0 5px 15px $Grayish-Blue;
+
+    .card-body{
+        .card-title{
+            font-weight: fontWeight(regular);
+        }
+    }
+    .card-img{
+        @include image-position;
+    }
+}
+
+.cyan{
+    @include desktop{
+        margin-top: 108.5px;
+    }
+}
+
+.blue{
+    @include desktop{
+        margin-top: 108.5px;
+    }
+}

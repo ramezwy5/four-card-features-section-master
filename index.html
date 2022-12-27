@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="./css/bootstrap.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <header>
+    <h1>Reliable, efficient delivery</h1>
+    <p>Powered by Technology</p>
+
+    <p>Our Artificial Intelligence powered tools use millions of project data points 
+    to ensure that your project is successful</p>
+  </header>
+  <main class="row row-cols-md-3">
+    <section class="col col-12 col-md-4">
+      <article class="card cyan">
+        <div class="card-body">
+          <h2 class="card-title">Supervisor</h2>
+          <p class="cardtext">Monitors activity to identify project roadblocks</p>
+          <div class="card-img"><img src="images/icon-supervisor.svg" alt="Supervisor"></div>
+        </div>
+      </article>
+    </section>
+    <div class="sub-row">
+      <section class="col col-12">
+        <article class="card red">
+          <div class="card-body">
+            <h2 class="card-title">Team Builder</h2>
+            <p class="cardtext">Scans our talent network to create the optimal team for your project</p>
+            <div class="card-img"><img src="images/icon-team-builder.svg" alt="team Builder"></div>
+          </div>
+        </article>
+      </section>
+    
+      <section class="col col-12">
+        <article class="card orange">
+          <div class="card-body">
+            <h2 class="card-title">Karma</h2>
+            <p class="cardtext">Regularly evaluates our talent to ensure quality</p>
+            <div class="card-img"><img src="images/icon-karma.svg" alt="Karma"></div>      
+          </div>
+          </article>
+      </section>
+    </div>
+    <section class="col col-12 col-md-4">
+      <article class="card blue align-middle">
+        <div class="card-body">
+          <h2 class="card-title">Calculator</h2>
+          <p class="cardtext">Uses data from past projects to provide better delivery estimates</p>
+          <div class="card-img"><img src="images/icon-calculator.svg" alt="Calculator"></div>
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ramezwy5">Kaaper</a>.
+    </p>
+  </footer>
+
+  <!-- JQuery first, next Popperjs, then BootStrapjs. -->
+ 	<!-- JQuery link not required for bootstrap 5
+	<script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+	-->
+  <!-- PopperJS link-->
+ 	<script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
+ 	<!-- BootStrap .JS link -->
+ 	<script src="./js/bootstrap.js"></script>
+	
+</body>
+</html>
